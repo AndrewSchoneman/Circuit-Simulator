@@ -1,0 +1,8 @@
+gate A not 1
+gate B not 1
+gate C and 1
+wire A out A in 1
+wire B out B in 2
+wire A out C in1 1.0
+wire B out C in2 1.0
+

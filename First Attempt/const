@@ -1,0 +1,6 @@
+gate A const .02
+gate B or .2
+gate C not .2
+wire A false C in .2
+wire A true B in2 .1
+wire C out B in1 .3

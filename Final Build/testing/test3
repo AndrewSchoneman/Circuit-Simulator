@@ -1,0 +1,4 @@
+gate A not 9.5
+gate B not 9.5
+wire A out B in 0.5
+wire B out A in 0.5

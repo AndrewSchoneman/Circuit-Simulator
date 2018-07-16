@@ -1,0 +1,29 @@
+
+The following files in this distribution are part of the program
+
+    Errors.java
+    ScanSupport.java
+    Simulator.java
+    PRNG.java
+
+    Wire.java
+    Gate.java
+
+    Logic.java
+
+The above files are all listed in the following java @file
+
+    classes
+
+To build the code, type the command "javac @classes"
+
+The following test files are included
+
+    test1
+    test2
+    test3
+    test4
+
+This file is also included
+
+    README

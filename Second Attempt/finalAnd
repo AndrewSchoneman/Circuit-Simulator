@@ -1,0 +1,8 @@
+gate A const 20.0
+gate B not 1.0
+gate C and 1.0
+gate D not 1.0
+wire A true B in 1.0
+wire B out C in1 1.0
+wire C out D in 1.0
+wire D out C in2 1.0

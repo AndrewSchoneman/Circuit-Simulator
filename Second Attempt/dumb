@@ -1,0 +1,6 @@
+gate A const .5
+gate B not 3.0
+gate C and 1.0
+wire A true  C in1 1.0
+wire A false B in .5
+wire B out C in2 1.0 

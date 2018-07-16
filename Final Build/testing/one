@@ -1,0 +1,2 @@
+At 1.0 gate A const 1.0 true  changes to true
+At 1.0 gate B not 1.0 out  changes to true

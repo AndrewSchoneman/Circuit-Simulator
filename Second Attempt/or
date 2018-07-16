@@ -1,0 +1,4 @@
+gate A const 1.0
+gate B or 1.0
+wire A true B in1 1.0
+wire A true B in2 1.0

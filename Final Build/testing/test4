@@ -1,0 +1,19 @@
+gate A const 1.0
+gate B not 1.0
+wire A true B in 1.0
+-- B out will have a true pulse from time 1 to time 3
+
+gate C not 0.001
+wire B out C in 0.001
+-- C out will have a false pulse from just after time 1 to time 3
+
+-- applying a true pulse to D in2 sets the outputs to false
+-- applying a false pulse to E in2 sets the outputs to true
+gate D or 1.0
+gate E and 1.0
+wire D out E in1 0.2
+wire E out D in1 0.2
+
+-- so now, try to set and reset D and E simultaneously
+wire B out D in2 1.000
+wire C out E in2 0.998

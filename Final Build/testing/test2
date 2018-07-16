@@ -1,0 +1,4 @@
+gate A not 9.0
+gate B not 9.0
+wire A out B in 1.0
+wire B out A in 1.0
