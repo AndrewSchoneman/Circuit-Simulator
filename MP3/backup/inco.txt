@@ -1,0 +1,16 @@
+gate A and 1.0
+gate B or 0.5
+gate E const .009
+wire A out B in1 0.1
+wire B out A in1 0.3
+-- another gate
+gate C or 0.5
+gate D not 0.6
+wire A out C in1 0.1
+wire C out B in2 0.1
+wire A out C in1 0.1
+wire C out A in2 1.1
+wire B out C in2 .5
+wire C out D in .2
+wire B out D in 0.3
+wire B out D in3 .2 AAF

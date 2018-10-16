@@ -1,0 +1,9 @@
+Gate A and 1.0
+Gate B or 0.5
+Wire A out B in1 0.1
+Wire B out A in1 0.3
+-- another gate
+Gate C neg 0.5
+Wire A out C in 0.1
+Wire C out B in2 0.1
+

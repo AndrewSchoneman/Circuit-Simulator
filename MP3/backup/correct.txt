@@ -1,0 +1,16 @@
+gate A and 1.0
+gate B or 0.5
+wire A out B in1 0.1
+wire B out A in1 0.3
+wire B out A in2 0.9
+-- another gate
+gate C or 0.5
+gate D const 0.75
+gate E or .33
+gate F not .45
+wire D true E in1 .4
+wire D false E in2 .66
+wire A out C in1 0.1
+wire C out B in2 0.1
+wire B out C in2 1
+wire E out F in .6

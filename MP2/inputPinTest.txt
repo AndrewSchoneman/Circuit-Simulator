@@ -1,0 +1,4 @@
+gate A and 1.0
+gate B or 0.5
+wire A out A in1 0.1
+wire B out A in1 0.3

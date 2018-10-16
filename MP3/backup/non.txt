@@ -1,0 +1,9 @@
+gate A not 0.5
+gate C or 0.4
+gate B const .3 a
+gate D gibber .05 a  
+wire B true C in1 0.66 df
+wire B false C in2 00.03
+wire B true A in .3
+asdf
+
